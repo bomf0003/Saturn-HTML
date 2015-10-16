@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/* Chris Bomford - CSS for HTML/CSS project */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 1.3rem;
+  /* default font-size = 1.0rem */
+  background-color: #111;
+  line-height: 1.6rem;
+  font-family: Helvectia Neue, Calibri, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 5.2rem;
+  text-shadow: -2px -2px 4px gold, 2px 2px 4px black;
+  
+}
+
+h3 {
+  padding: 0 1.5rem;
+  font-size: 2.7rem;
+  line-height: 7rem;
+}
+
+p {
+  padding: 0 1.5rem;
+  color: #d4d4d4;
+  font-size: 1.7rem;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+  color: gold;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+nav a:hover {
+  color: #FFF;
+}
+nav a:active {}
+
+nav ul{
+  
+  padding: 20px 0px;
+}
+
+#mainnav li {
+  float: left;
+  width: 20%;
+  display: block;
+  text-align: center; 
+}
+
+#wrapper {
+  width:70%;
+  margin: auto;
+  background-color: #333;
+  color: white;
+  
+  
+}
+
+.masthead {
+  background: url(http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg) no-repeat 30% 20%;
+  line-height: 13rem;
+  color: white;
+  padding: 0 1rem;
+  background-size: cover;
+  border-bottom: 10px solid #444;
+}
+
+#main {
+  background-color: #333;
+  border-top: 14px solid #444;
+  
+}
+
+#footer {
+  background-color: #222;
+}
+
+#footer p {
+  color: #999;
+  font-size: 0.7rem;
+}
+
+#footer a {
+  color: gold;
+  font-size: 0.7rem;
+  
+}
